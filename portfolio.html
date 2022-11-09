@@ -57,44 +57,54 @@
     <main>
       <section class="portfolio">
         <div class="container">
-          <h1 class="portfolio-title-1">Портфоліо</h1>
-          <ul class="portfolio-batton-main">
-            <li class="item"><button class="portfolio-button" type="button">Усі</button></li>
-            <li class="item"><button class="portfolio-button" type="button">Веб-сайти</button></li>
-            <li class="item"><button class="portfolio-button" type="button">Додатки</button></li>
-            <li class="item"><button class="portfolio-button" type="button">Дизайн</button></li>
-            <li class="item"><button class="portfolio-button" type="button">Маркетинг</button></li>
+          <h1 class="portfolio__title">Портфоліо</h1>
+          <ul class="portfolio-filter">
+            <li class="portfolio-filter__item">
+              <button class="portfolio-filter__button" type="button">Усі</button>
+            </li>
+            <li class="portfolio-filter__item">
+              <button class="portfolio-filter__button" type="button">Веб-сайти</button>
+            </li>
+            <li class="portfolio-filter__item">
+              <button class="portfolio-filter__button" type="button">Додатки</button>
+            </li>
+            <li class="portfolio-filter__item">
+              <button class="portfolio-filter__button" type="button">Дизайн</button>
+            </li>
+            <li class="portfolio-filter__item">
+              <button class="portfolio-filter__button" type="button">Маркетинг</button>
+            </li>
           </ul>
           <ul class="portfolio-list">
-            <li class="portfolio-item link">
-              <a class="portfolio-link" href="#">
-                <div class="portfolio-img">
+            <li class="portfolio-card">
+              <a class="portfolio-card__link" href="#">
+                <div class="portfolio-card__img">
                   <img
                     src="./images/portfolio/tehnocrack.jpg"
                     alt="Веб-сайт технокряк"
                     width="370"
                   />
-                  <p class="portfolio-description description-text">
+                  <p class="portfolio-card__description">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                     Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                     приватну особу.
                   </p>
                 </div>
-                <div class="portfolio-div">
-                  <h2 class="portfolio-title">Технокряк</h2>
-                  <p class="portfolio-text">Веб-сай</p>
+                <div class="portfolio-card__div">
+                  <h2 class="portfolio-card__title">Технокряк</h2>
+                  <p class="portfolio-card__text">Веб-сай</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-item">
-              <a class="portfolio-link" href="#">
-                <div class="portfolio-img">
+            <li class="portfolio-card">
+              <a class="portfolio-card__link" href="#">
+                <div class="portfolio-card__img">
                   <img
                     src="./images/portfolio/neworlean.jpg"
                     alt="Дизайн постеру new orlean vs golden star"
                     width="370"
                   />
-                  <p class="portfolio-description description-text">
+                  <p class="portfolio-card__description">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti expedita
                     perspiciatis exercitationem, nam, optio unde placeat tempora temporibus libero
                     incidunt ut dolorum totam, quibusdam corporis cupiditate voluptas sunt quisquam
@@ -102,21 +112,21 @@
                   </p>
                 </div>
 
-                <div class="portfolio-div">
-                  <h2 class="portfolio-title">Постер New Orlean vs Golden Star</h2>
-                  <p class="portfolio-text">Дизайн</p>
+                <div class="portfolio-card__div">
+                  <h2 class="portfolio-card__title">Постер New Orlean vs Golden Star</h2>
+                  <p class="portfolio-card__text">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-item">
-              <a class="portfolio-link" href="#">
-                <div class="portfolio-img">
+            <li class="portfolio-card">
+              <a class="portfolio-card__link" href="#">
+                <div class="portfolio-card__img">
                   <img
                     src="./images/portfolio/seafood.jpg"
                     alt="Додаток ресторану Сіафуд"
                     width="370"
                   />
-                  <p class="portfolio-description description-text">
+                  <p class="portfolio-card__description">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti expedita
                     perspiciatis exercitationem, nam, optio unde placeat tempora temporibus libero
                     incidunt ut dolorum totam, quibusdam corporis cupiditate voluptas sunt quisquam
@@ -124,21 +134,21 @@
                   </p>
                 </div>
 
-                <div class="portfolio-div">
-                  <h2 class="portfolio-title">Ресторан Seafood</h2>
-                  <p class="portfolio-text">Додаток</p>
+                <div class="portfolio-card__div">
+                  <h2 class="portfolio-card__title">Ресторан Seafood</h2>
+                  <p class="portfolio-card__text">Додаток</p>
                 </div></a
               >
             </li>
-            <li class="portfolio-item">
-              <a class="portfolio-link" href="#">
-                <div class="portfolio-img">
+            <li class="portfolio-card">
+              <a class="portfolio-card__link" href="#">
+                <div class="portfolio-card__img">
                   <img
                     src="./images/portfolio/prime.jpg"
                     alt="Маркетинг проєкт Прайм"
                     width="370"
                   />
-                  <p class="portfolio-description description-text">
+                  <p class="portfolio-card__description">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti expedita
                     perspiciatis exercitationem, nam, optio unde placeat tempora temporibus libero
                     incidunt ut dolorum totam, quibusdam corporis cupiditate voluptas sunt quisquam
@@ -146,38 +156,39 @@
                   </p>
                 </div>
 
-                <div class="portfolio-div">
-                  <h2 class="portfolio-title">Проєкт Prime</h2>
-                  <p class="portfolio-text">Маркетинг</p>
+                <div class="portfolio-card__div">
+                  <h2 class="portfolio-card__title">Проєкт Prime</h2>
+                  <p class="portfolio-card__text">Маркетинг</p>
                 </div></a
               >
             </li>
-            <li class="portfolio-item">
-              <a class="portfolio-link" href="#">
-                <div class="portfolio-img">
+            <li class="portfolio-card">
+              <a class="portfolio-card__link" href="#">
+                <div class="portfolio-card__img">
                   <img src="./images/portfolio/boxes.jpg" alt="Додаток Боксес" width="370" />
-                  <p class="portfolio-description description-text">
+                  <p class="portfolio-card__description">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti expedita
                     perspiciatis exercitationem, nam, optio unde placeat tempora temporibus libero
                     incidunt ut dolorum totam, quibusdam corporis cupiditate voluptas sunt quisquam
                     sit?
                   </p>
                 </div>
-                <div class="portfolio-div">
-                  <h2 class="portfolio-title">Проєкт Boxes</h2>
-                  <p class="portfolio-text">Додаток</p>
+
+                <div class="portfolio-card__div">
+                  <h2 class="portfolio-card__title">Проєкт Boxes</h2>
+                  <p class="portfolio-card__text">Додаток</p>
                 </div></a
               >
             </li>
-            <li class="portfolio-item">
-              <a class="portfolio-link" href="#">
-                <div class="portfolio-img">
+            <li class="portfolio-card">
+              <a class="portfolio-card__link" href="#">
+                <div class="portfolio-card__img">
                   <img
                     src="./images/portfolio/inspiration.jpg"
                     alt="Веб-сайт Натхнення не має кордонів"
                     width="370"
                   />
-                  <p class="portfolio-description description-text">
+                  <p class="portfolio-card__description">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti expedita
                     perspiciatis exercitationem, nam, optio unde placeat tempora temporibus libero
                     incidunt ut dolorum totam, quibusdam corporis cupiditate voluptas sunt quisquam
@@ -185,21 +196,21 @@
                   </p>
                 </div>
 
-                <div class="portfolio-div">
-                  <h2 class="portfolio-title">Inspiration has no Borders</h2>
-                  <p class="portfolio-text">Веб-сайт</p>
+                <div class="portfolio-card__div">
+                  <h2 class="portfolio-card__title">Inspiration has no Borders</h2>
+                  <p class="portfolio-card__text">Веб-сайт</p>
                 </div></a
               >
             </li>
-            <li class="portfolio-item">
-              <a class="portfolio-link" href="#">
-                <div class="portfolio-img">
+            <li class="portfolio-card">
+              <a class="portfolio-card__link" href="#">
+                <div class="portfolio-card__img">
                   <img
                     src="./images/portfolio/limitededition.jpg"
                     alt="Дизайн проект з назвою Обмежене видання"
                     width="370"
                   />
-                  <p class="portfolio-description description-text">
+                  <p class="portfolio-card__description">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti expedita
                     perspiciatis exercitationem, nam, optio unde placeat tempora temporibus libero
                     incidunt ut dolorum totam, quibusdam corporis cupiditate voluptas sunt quisquam
@@ -207,17 +218,17 @@
                   </p>
                 </div>
 
-                <div class="portfolio-div">
-                  <h2 class="portfolio-title">Видання Limited Edition</h2>
-                  <p class="portfolio-text">Дизайн</p>
+                <div class="portfolio-card__div">
+                  <h2 class="portfolio-card__title">Видання Limited Edition</h2>
+                  <p class="portfolio-card__text">Дизайн</p>
                 </div></a
               >
             </li>
-            <li class="portfolio-item">
-              <a class="portfolio-link" href="#">
-                <div class="portfolio-img">
+            <li class="portfolio-card">
+              <a class="portfolio-card__link" href="#">
+                <div class="portfolio-card__img">
                   <img src="./images/portfolio/lab.jpg" alt="Маркетинг проєкт Лаб" width="370" />
-                  <p class="portfolio-description description-text">
+                  <p class="portfolio-card__description">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti expedita
                     perspiciatis exercitationem, nam, optio unde placeat tempora temporibus libero
                     incidunt ut dolorum totam, quibusdam corporis cupiditate voluptas sunt quisquam
@@ -225,21 +236,21 @@
                   </p>
                 </div>
 
-                <div class="portfolio-div">
-                  <h2 class="portfolio-title">Проєкт Lab</h2>
-                  <p class="portfolio-text">Маркетинг</p>
+                <div class="portfolio-card__div">
+                  <h2 class="portfolio-card__title">Проєкт Lab</h2>
+                  <p class="portfolio-card__text">Маркетинг</p>
                 </div></a
               >
             </li>
-            <li class="portfolio-item">
-              <a class="portfolio-link" href="#">
-                <div class="portfolio-img">
+            <li class="portfolio-card">
+              <a class="portfolio-card__link" href="#">
+                <div class="portfolio-card__img">
                   <img
                     src="./images/portfolio/growingbusiness.jpg"
                     alt="Додаток Зростаючий бізнес"
                     width="370"
                   />
-                  <p class="portfolio-description description-text">
+                  <p class="portfolio-card__description">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti expedita
                     perspiciatis exercitationem, nam, optio unde placeat tempora temporibus libero
                     incidunt ut dolorum totam, quibusdam corporis cupiditate voluptas sunt quisquam
@@ -247,9 +258,9 @@
                   </p>
                 </div>
 
-                <div class="portfolio-div">
-                  <h2 class="portfolio-title">Growing Business</h2>
-                  <p class="portfolio-text">Додаток</p>
+                <div class="portfolio-card__div">
+                  <h2 class="portfolio-card__title">Growing Business</h2>
+                  <p class="portfolio-card__text">Додаток</p>
                 </div></a
               >
             </li>
@@ -287,50 +298,48 @@
           </address>
         </div>
         <div class="footer-social">
-          <p class="foter-social-text">приєднуйтесь</p>
-          <div class="social-footer">
-            <ul class="social-list-footer">
-              <li>
-                <a class="social-link-footer" href="#">
-                  <svg class="social-icon-footer" width="20px" height="20px">
-                    <use href="./images/icon/symbol-defs.svg#icon-instagram"></use></svg
-                ></a>
-              </li>
-              <li>
-                <a class="social-link-footer" href="#">
-                  <svg class="social-icon-footer" width="20px" height="20px">
-                    <use href="./images/icon/symbol-defs.svg#icon-twitter"></use></svg
-                ></a>
-              </li>
-              <li>
-                <a class="social-link-footer" href="#">
-                  <svg class="social-icon-footer" width="20px" height="20px">
-                    <use href="./images/icon/symbol-defs.svg#icon-facebook"></use></svg
-                ></a>
-              </li>
-              <li>
-                <a class="social-link-footer" href="#">
-                  <svg class="social-icon-footer" width="20px" height="20px">
-                    <use href="./images/icon/symbol-defs.svg#icon-linkedin"></use></svg
-                ></a>
-              </li>
-            </ul>
-          </div>
+          <p class="foter-social__text">приєднуйтесь</p>
+          <ul class="social-list">
+            <li>
+              <a class="social-list__link social-list__link--color" href="#">
+                <svg class="social-list__icon social-list__icon--color" width="20px" height="20px">
+                  <use href="./images/icon/symbol-defs.svg#icon-instagram"></use></svg
+              ></a>
+            </li>
+            <li>
+              <a class="social-list__link social-list__link--color" href="#">
+                <svg class="social-list__icon social-list__icon--color" width="20px" height="20px">
+                  <use href="./images/icon/symbol-defs.svg#icon-twitter"></use></svg
+              ></a>
+            </li>
+            <li>
+              <a class="social-list__link social-list__link--color" href="#">
+                <svg class="social-list__icon social-list__icon--color" width="20px" height="20px">
+                  <use href="./images/icon/symbol-defs.svg#icon-facebook"></use></svg
+              ></a>
+            </li>
+            <li>
+              <a class="social-list__link social-list__link--color" href="#">
+                <svg class="social-list__icon social-list__icon--color" width="20px" height="20px">
+                  <use href="./images/icon/symbol-defs.svg#icon-linkedin"></use></svg
+              ></a>
+            </li>
+          </ul>
         </div>
 
-        <div class="footer-subscription-block">
-          <p class="footer-subscription-text">Підпишіться на розсилку</p>
-          <form class="subscription-form">
+        <div class="subscribe">
+          <p class="subscribe__text">Підпишіться на розсилку</p>
+          <form class="subscribe__form">
             <input
-              class="footer-subscription-input"
+              class="subscribe__input"
               type="email"
               name="mail"
-              id="subscription-mail"
+              id="subscribe-mail"
               placeholder="E-mail"
             />
-            <button class="footer-subscription-button" type="submit">
+            <button class="button button__subscribe--size" type="submit">
               Підписатися
-              <svg class="subscription-button-icon" width="24px" height="24px">
+              <svg class="button__icon" width="24px" height="24px">
                 <use href="./images/icon/symbol-defs.svg#icon-send"></use>
               </svg>
             </button>
