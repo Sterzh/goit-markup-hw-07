@@ -35,10 +35,16 @@
   transition-property: fill, border;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+    border-color: var(--accent-color);
+  }
 }
 
-.customers-list__link:hover,
-.customers-list__link:focus {
-  fill: var(--accent-color);
-  border-color: var(--accent-color);
-}
+// .customers-list__link:hover,
+// .customers-list__link:focus {
+//   fill: var(--accent-color);
+//   border-color: var(--accent-color);
+// }

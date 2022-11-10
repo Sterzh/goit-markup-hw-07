@@ -41,12 +41,17 @@
 
 .address__link--color {
   color: var(--text-color-white);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
-.address__link:hover,
-.address__link:focus {
-  color: var(--accent-color);
-}
+// .address__link:hover,
+// .address__link:focus {
+//   color: var(--accent-color);
+// }
 
 .footer-social {
   margin-left: 70px;

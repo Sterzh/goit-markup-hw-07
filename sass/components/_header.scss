@@ -106,12 +106,17 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
-.contacts-nav__link:hover,
-.contacts-nav__link:focus {
-  color: var(--accent-color);
-}
+// .contacts-nav__link:hover,
+// .contacts-nav__link:focus {
+//   color: var(--accent-color);
+// }
 
 .contacts-nav__icon {
   margin-right: 10px;

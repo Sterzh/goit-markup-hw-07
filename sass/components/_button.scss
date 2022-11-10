@@ -21,13 +21,19 @@
   transition-property: color, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--text-color-white);
+    background-color: var(--accent-color-background);
+  }
 }
 
-.button:hover,
-.button:focus {
-  color: var(--text-color-white);
-  background-color: var(--accent-color-background);
-}
+// .button:hover,
+// .button:focus {
+//   color: var(--text-color-white);
+//   background-color: var(--accent-color-background);
+// }
 
 /*modal-button*/
 

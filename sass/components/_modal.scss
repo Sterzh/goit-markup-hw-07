@@ -42,7 +42,17 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
   outline: none;
+
+  &:hover .modal__close-icon,
+  &:focus .modal__close-icon {
+    fill: var(--accent-color);
+  }
 }
+
+// .modal__close-button:hover .modal__close-icon,
+// .modal__close-button:focus .modal__close-icon {
+//   fill: var(--accent-color);
+// }
 
 .modal__close-icon {
   position: absolute;
@@ -52,11 +62,6 @@
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal__close-button:hover .modal__close-icon,
-.modal__close-button:focus .modal__close-icon {
-  fill: var(--accent-color);
 }
 
 .modal__title {
@@ -87,7 +92,23 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
+
+  &:hover .form-icon {
+    fill: var(--accent-color);
+  }
+
+  &:focus-within .form-icon {
+    fill: var(--accent-color);
+  }
 }
+
+// .order-form__block:hover .form-icon {
+//   fill: var(--accent-color);
+// }
+
+// .order-form__block:focus-within .form-icon {
+//   fill: var(--accent-color);
+// }
 
 .order-form__icon {
   position: absolute;
@@ -110,21 +131,19 @@
   transition-property: border-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+    cursor: pointer;
+  }
 }
 
-.order-form__input:hover,
-.order-form__input:focus {
-  border-color: var(--accent-color);
-  cursor: pointer;
-}
-
-.order-form__block:hover .form-icon {
-  fill: var(--accent-color);
-}
-
-.order-form__block:focus-within .form-icon {
-  fill: var(--accent-color);
-}
+// .order-form__input:hover,
+// .order-form__input:focus {
+//   border-color: var(--accent-color);
+//   cursor: pointer;
+// }
 
 .order-form__comments {
   display: block;
@@ -139,13 +158,19 @@
   transition-property: border-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+    cursor: pointer;
+  }
 }
 
-.order-form__comments:hover,
-.order-form__comments:focus {
-  border-color: var(--accent-color);
-  cursor: pointer;
-}
+// .order-form__comments:hover,
+// .order-form__comments:focus {
+//   border-color: var(--accent-color);
+//   cursor: pointer;
+// }
 
 .order-form__block textarea::placeholder {
   font-weight: 400;
